@@ -91,18 +91,18 @@ interface Address {
 const DEMO_PRODUCTS: Product[] = [
   {
     id: "p1",
-    name: "Floral Ankara Maxi Dress",
-    slug: "floral-ankara-maxi-dress",
-    description: "Elegant maxi dress crafted from premium Ankara fabric. Features a flattering A-line silhouette with side pockets and a comfortable elastic waistband. Perfect for special occasions or casual outings.",
-    price: 4500,
-    salePrice: 3800,
+    name: "Celestial Circle Halter Maxi Dress",
+    slug: "celestial-circle-halter-maxi-dress",
+    description: "Stunning halter maxi dress featuring beautiful blue and gold circular Ankara print. High neckline and flowing fabric with a graceful leg slit. Perfect for elegant evening occasions.",
+    price: 5800,
+    salePrice: 4900,
     category: "dresses",
-    images: ["https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=800&fit=crop", "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=800&fit=crop"],
+    images: ["/p1.jpg"],
     variants: [
-      { id: "v1", size: "S", stock: 5, price: 4500 },
-      { id: "v2", size: "M", stock: 8, price: 4500 },
-      { id: "v3", size: "L", stock: 3, price: 4500 },
-      { id: "v4", size: "XL", stock: 2, price: 4500 },
+      { id: "v1", size: "S", stock: 5, price: 5800 },
+      { id: "v2", size: "M", stock: 8, price: 5800 },
+      { id: "v3", size: "L", stock: 3, price: 5800 },
+      { id: "v4", size: "XL", stock: 2, price: 5800 },
     ],
     featured: true,
     newArrival: true,
@@ -111,16 +111,16 @@ const DEMO_PRODUCTS: Product[] = [
   },
   {
     id: "p2",
-    name: "Geometric Ankara Skirt Set",
-    slug: "geometric-ankara-skirt-set",
-    description: "Stunning two-piece set featuring a geometric Ankara print skirt with a matching crop top. Versatile and stylish for both office and weekend wear.",
-    price: 3200,
+    name: "Circular Print Crop Top & Pant Set",
+    slug: "circular-print-crop-top-pant-set",
+    description: "Vibrant two-piece set with blue and orange circular Ankara print. Features a stylish crop top and high-waisted wide-leg pants. Comfortable yet fashionable for casual and office wear.",
+    price: 4200,
     category: "two-piece",
-    images: ["https://images.unsplash.com/photo-1550614000-4b9519e02a48?w=600&h=800&fit=crop", "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=800&fit=crop"],
+    images: ["/p2.jpg"],
     variants: [
-      { id: "v5", size: "S", stock: 4, price: 3200 },
-      { id: "v6", size: "M", stock: 6, price: 3200 },
-      { id: "v7", size: "L", stock: 5, price: 3200 },
+      { id: "v5", size: "S", stock: 4, price: 4200 },
+      { id: "v6", size: "M", stock: 6, price: 4200 },
+      { id: "v7", size: "L", stock: 5, price: 4200 },
     ],
     featured: true,
     newArrival: false,
@@ -129,17 +129,17 @@ const DEMO_PRODUCTS: Product[] = [
   },
   {
     id: "p3",
-    name: "Bold Print Ankara Jumpsuit",
-    slug: "bold-print-ankara-jumpsuit",
-    description: "Make a statement with this bold print Ankara jumpsuit. Features a tailored fit with wide-leg pants and a wrap-style top. Comfortable yet sophisticated.",
-    price: 5200,
+    name: "Leafy Green Strapless Jumpsuit",
+    slug: "leafy-green-strapless-jumpsuit",
+    description: "Make a bold statement with this stunning green and yellow leafy geometric print strapless jumpsuit. Features a fitted waist, wide-leg pants, and excellent tailoring. Perfect for parties and formal events.",
+    price: 6200,
     category: "jumpsuits",
-    images: ["https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=600&h=800&fit=crop", "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=800&fit=crop"],
+    images: ["/p3.jpg"],
     variants: [
-      { id: "v8", size: "S", stock: 3, price: 5200 },
-      { id: "v9", size: "M", stock: 4, price: 5200 },
-      { id: "v10", size: "L", stock: 2, price: 5200 },
-      { id: "v11", size: "XL", stock: 1, price: 5200 },
+      { id: "v8", size: "S", stock: 3, price: 6200 },
+      { id: "v9", size: "M", stock: 4, price: 6200 },
+      { id: "v10", size: "L", stock: 2, price: 6200 },
+      { id: "v11", size: "XL", stock: 1, price: 6200 },
     ],
     featured: false,
     newArrival: true,
@@ -148,17 +148,17 @@ const DEMO_PRODUCTS: Product[] = [
   },
   {
     id: "p4",
-    name: "Classic Ankara Midi Dress",
-    slug: "classic-ankara-midi-dress",
-    description: "Timeless midi dress in classic Ankara print. Knee-length with a fitted bodice and flared skirt. Ideal for church, work, or dinner dates.",
-    price: 3800,
-    salePrice: 3400,
+    name: "Bold Multicolor Bodycon Midi Dress",
+    slug: "bold-multicolor-bodycon-midi-dress",
+    description: "Eye-catching bodycon midi dress with bold multicolor floral and geometric Ankara print in red, gold, and blue. Features short puffed sleeves and a sweetheart neckline. Ideal for special occasions.",
+    price: 4800,
+    salePrice: 3999,
     category: "dresses",
-    images: ["https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=800&fit=crop", "https://images.unsplash.com/photo-1550614000-4b9519e02a48?w=600&h=800&fit=crop"],
+    images: ["/p4.jpg"],
     variants: [
-      { id: "v12", size: "S", stock: 7, price: 3800 },
-      { id: "v13", size: "M", stock: 9, price: 3800 },
-      { id: "v14", size: "L", stock: 4, price: 3800 },
+      { id: "v12", size: "S", stock: 7, price: 4800 },
+      { id: "v13", size: "M", stock: 9, price: 4800 },
+      { id: "v14", size: "L", stock: 4, price: 4800 },
     ],
     featured: true,
     newArrival: false,
@@ -167,16 +167,16 @@ const DEMO_PRODUCTS: Product[] = [
   },
   {
     id: "p5",
-    name: "Ankara Kimono Jacket",
-    slug: "ankara-kimono-jacket",
-    description: "Versatile Ankara kimono jacket that can be worn over any outfit. Open-front design with wide sleeves. Perfect for layering.",
-    price: 2800,
+    name: "Radiant Gold Ankara Duster Cardigan",
+    slug: "radiant-gold-ankara-duster-cardigan",
+    description: "Luxurious duster cardigan in rich red and gold Ankara circular print. Long flowing length perfect for layering over any outfit. Open-front design with comfortable fit. A wardrobe staple for style and versatility.",
+    price: 3800,
     category: "tops",
-    images: ["https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=800&fit=crop", "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=600&h=800&fit=crop"],
+    images: ["/p5.jpg"],
     variants: [
-      { id: "v15", size: "S", stock: 6, price: 2800 },
-      { id: "v16", size: "M", stock: 8, price: 2800 },
-      { id: "v17", size: "L", stock: 5, price: 2800 },
+      { id: "v15", size: "S", stock: 6, price: 3800 },
+      { id: "v16", size: "M", stock: 8, price: 3800 },
+      { id: "v17", size: "L", stock: 5, price: 3800 },
     ],
     featured: false,
     newArrival: true,
@@ -185,16 +185,16 @@ const DEMO_PRODUCTS: Product[] = [
   },
   {
     id: "p6",
-    name: "Peplum Ankara Blouse",
-    slug: "peplum-ankara-blouse",
-    description: "Feminine peplum blouse in vibrant Ankara print. Fitted waist with flared peplum hem. Pairs beautifully with skirts or trousers.",
-    price: 2500,
+    name: "Celestial Peplum Blouse",
+    slug: "celestial-peplum-blouse",
+    description: "Feminine peplum blouse featuring beautiful blue, gold, and white circular Ankara print. V-neckline, sleeveless design with a flattering peplum hem. Pairs perfectly with skirts, pants, or jeans.",
+    price: 2800,
     category: "tops",
-    images: ["https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=800&fit=crop", "https://images.unsplash.com/photo-1550614000-4b9519e02a48?w=600&h=800&fit=crop"],
+    images: ["/p6.jpg"],
     variants: [
-      { id: "v18", size: "S", stock: 5, price: 2500 },
-      { id: "v19", size: "M", stock: 7, price: 2500 },
-      { id: "v20", size: "L", stock: 3, price: 2500 },
+      { id: "v18", size: "S", stock: 5, price: 2800 },
+      { id: "v19", size: "M", stock: 7, price: 2800 },
+      { id: "v20", size: "L", stock: 3, price: 2800 },
     ],
     featured: false,
     newArrival: false,
@@ -203,16 +203,16 @@ const DEMO_PRODUCTS: Product[] = [
   },
   {
     id: "p7",
-    name: "Ankara Pencil Skirt",
-    slug: "ankara-pencil-skirt",
-    description: "Sleek pencil skirt in Ankara fabric. High-waisted with a back slit for comfort. Professional yet stylish.",
-    price: 2200,
+    name: "Sunset Pencil Midi Skirt",
+    slug: "sunset-pencil-midi-skirt",
+    description: "Elegant pencil midi skirt in vibrant red and yellow circular Ankara print. High-waisted, knee-length with a flattering fit. Professional yet stylish for office, casual, and evening wear.",
+    price: 2600,
     category: "skirts",
-    images: ["https://images.unsplash.com/photo-1550614000-4b9519e02a48?w=600&h=800&fit=crop", "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=800&fit=crop"],
+    images: ["/p7.jpg"],
     variants: [
-      { id: "v21", size: "S", stock: 4, price: 2200 },
-      { id: "v22", size: "M", stock: 6, price: 2200 },
-      { id: "v23", size: "L", stock: 3, price: 2200 },
+      { id: "v21", size: "S", stock: 4, price: 2600 },
+      { id: "v22", size: "M", stock: 6, price: 2600 },
+      { id: "v23", size: "L", stock: 3, price: 2600 },
     ],
     featured: false,
     newArrival: true,
@@ -221,17 +221,17 @@ const DEMO_PRODUCTS: Product[] = [
   },
   {
     id: "p8",
-    name: "Wrap Ankara Dress",
-    slug: "wrap-ankara-dress",
-    description: "Beautiful wrap dress that flatters every body type. Adjustable tie waist and flowing skirt. A wardrobe essential.",
-    price: 4200,
+    name: "Emerald Wrap Dress",
+    slug: "emerald-wrap-dress",
+    description: "Beautiful wrap dress in stunning green and orange diamond geometric Ankara print. Features puffed sleeves, adjustable wrap waist, and flattering A-line silhouette. Comfortable and versatile for any occasion.",
+    price: 4600,
     category: "dresses",
-    images: ["https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=600&h=800&fit=crop", "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=800&fit=crop"],
+    images: ["/p8.jpg"],
     variants: [
-      { id: "v24", size: "S", stock: 3, price: 4200 },
-      { id: "v25", size: "M", stock: 5, price: 4200 },
-      { id: "v26", size: "L", stock: 4, price: 4200 },
-      { id: "v27", size: "XL", stock: 2, price: 4200 },
+      { id: "v24", size: "S", stock: 3, price: 4600 },
+      { id: "v25", size: "M", stock: 5, price: 4600 },
+      { id: "v26", size: "L", stock: 4, price: 4600 },
+      { id: "v27", size: "XL", stock: 2, price: 4600 },
     ],
     featured: true,
     newArrival: false,
@@ -657,7 +657,7 @@ export default function TatuAnkaraApp() {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
       </Head>
       <div className="app-container">
-        <style>{`
+        <style suppressHydrationWarning>{`
           :root {
             --gold: #C9A227; --gold-light: #E8D5A3; --black: #111111; --white: #FFFFFF;
             --gray-50: #F7F7F7; --gray-100: #EEEEEE; --gray-200: #DDDDDD; --gray-300: #CCCCCC;
@@ -669,7 +669,7 @@ export default function TatuAnkaraApp() {
           }
           * { box-sizing: border-box; margin: 0; padding: 0; }
           html { scroll-behavior: smooth; }
-          body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: var(--black); background: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+          body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: var(--black); background: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; }
           button { cursor: pointer; border: none; background: none; font-family: inherit; }
           a { text-decoration: none; color: inherit; }
           img { max-width: 100%; display: block; }
@@ -810,9 +810,14 @@ function MobileNav() {
             <p style={{ fontSize: 13, color: "var(--gray-500)" }}>{user.email}</p>
           </div>
         )}
-        {[["home","Home",Icons.Home],["shop","Shop",Icons.ShopIcon],["orders","My Orders",Icons.Orders],["profile","Profile",Icons.User]].map(([p,l,I]) => (
-          <button key={p as string} onClick={() => navigate(p as Page)} style={{ display: "flex", alignItems: "center", gap: 12, padding: "12px 0", fontSize: 15, color: "var(--gray-700)", borderBottom: "1px solid var(--gray-50)", textAlign: "left" }}>
-            <I />{l}
+        {([
+          ["home","Home",Icons.Home],
+          ["shop","Shop",Icons.ShopIcon],
+          ["orders","My Orders",Icons.Orders],
+          ["profile","Profile",Icons.User],
+        ] as [string, string, () => React.ReactNode][]).map(([p, l, I]) => (
+          <button key={p} onClick={() => navigate(p as Page)} style={{ display: "flex", alignItems: "center", gap: 12, padding: "12px 0", fontSize: 15, color: "var(--gray-700)", borderBottom: "1px solid var(--gray-50)", textAlign: "left" }}>
+            {I()}{l}
           </button>
         ))}
         {user?.role === "admin" && (
